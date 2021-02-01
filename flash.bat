@@ -1,0 +1,1 @@
+c:\NRFdev\openocd-0.10.0\bin\openocd.exe -f interface/stlink-v2.cfg -f target/nrf51.cfg -c "init" -c "halt" -c "nrf51 mass_erase" -c "program C:/NRFdev/projekty/freertos/Debug/freertos.hex" -c "reset" -c "exit"  
